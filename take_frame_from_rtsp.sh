@@ -13,7 +13,6 @@ for ip_array_camera in $(seq 1 $nums_camera);
 echo "Архивируем и отправляем архив на 10.250.80.30/screenshots"
 zip -r $name_station.zip ./$name_station/ $> /dev/null
 rm -rf ./$name_station
-#cp $home_dir/$name_station.zip /mnt/screenshots/
 cp /home/zabbix/video_pmi/$name_station.zip /mnt/sreenshots/
 echo "Выполнено!"
 
