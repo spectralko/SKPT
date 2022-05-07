@@ -215,8 +215,8 @@ Write-Host "Пункт 7.1.9 Проверка корректности наст�
 "
 ping ktosvn-edc
 ping $station_code"-S-SKPT-01"
-ping $station_code"-S-SKPT-02"
-ping $station_code"-ARM-01"
+ping $station_code"-S-IRC-01"
+ping $station_code"-W-SKPT-01"
 ping $station_code"-TRM-01"
 mstsc /v:$ip_station.193 /prompt
 #mstsc /v:$ip_station.211 /prompt
